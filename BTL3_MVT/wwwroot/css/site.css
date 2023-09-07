@@ -1,0 +1,100 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.header {
+    margin-top: 2px;
+    border: 1.5px solid #ccc;
+}
+
+.item {
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: #678DB9;
+}
+
+.title-active {
+    border: 1px solid #ccc;
+    border-top: solid 5px red;
+}
+
+span {
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+    border: 1.5px solid #ccc;
+}
+
+.form-group {
+    margin-top: 30px;
+    border: 2px solid #3C9CDD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+    input[type="radio"] {
+        width: 5%;
+    }
+
+    input[type="checkbox"] {
+        width: 5%;
+    }
+
+.input {
+    padding: 20px;
+}
+
+button {
+    color: white;
+    background-color: #3C9CDD;
+    border: none;
+    width: 90%;
+}
+
+    button[type="submit"]:hover, .back:hover {
+        background-color: #ccc;
+        color: black;
+        transition: 0.3s;
+    }
+
+.required {
+    color: red;
+}
+
+.custom-input {
+    height: 45px;
+}
+
+.notification{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
